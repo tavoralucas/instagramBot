@@ -87,10 +87,10 @@ class InstagramBot:
             try:
                 comments = [
                     "Massa",
-                ]
+                ] #dionario de frases aqui
                 driver.find_element_by_class_name("Ypffh").click()
                 comment_input_box = driver.find_element_by_class_name("Ypffh")
-                time.sleep(random.randint(2, 5))
+                time.sleep(random.randint(2, 5)) #escolhe uma das frases 
                 self.type_like_a_person(
                     random.choice(comments), comment_input_box)
                 time.sleep(random.randint(3, 5))
