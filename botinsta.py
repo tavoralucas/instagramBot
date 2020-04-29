@@ -9,7 +9,7 @@ class InstagramBot:
         self.password = password
         self.driver = webdriver.Firefox(
             executable_path=r'C:\Users\nasci\PycharmProjects\bot\geckodriver.exe'
-        )
+        ) #colocar aqui o caminho onde o geckdriver está
 
     def login(self):
         driver = self.driver
@@ -54,7 +54,7 @@ class InstagramBot:
         time.sleep(4)
         for i in range(
             1, 3
-        ):  # Altere o segundo valor aqui para que ele desça a quantidade de páginas que você quiser: quer que ele desça 5 páginas então você deve alterar de range(1,3) para range(1,5)
+        ):  # Altere o segundo valor aqui para que ele "scrolle" a quantidade de páginas que quiser
             driver.execute_script(
                 "window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(3)
