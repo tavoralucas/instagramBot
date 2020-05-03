@@ -1,3 +1,3 @@
 # instagramBot
-curte e comenta por hashtag (py)
-Segue e dessegue perfil (js)
+1. curte e comenta por hashtag (py)
+2. Segue e dessegue perfil (js)
