@@ -7,8 +7,9 @@ document.querySelectorAll('._8A5w5').forEach((v,i) => {
                 if(v.innerText == "Unfollow"){
                     v.click();
                     cont++
+                    console.log('Numero de desseguidas ' + cont);
                 }
             })
         }
-    }, i * 5000)
+    }, i * 10000)
 })
